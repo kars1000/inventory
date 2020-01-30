@@ -1,0 +1,78 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+microsoft
+/
+TypeScript-Node-Starter
+1836.9k1.6k
+ Code Issues 48 Pull requests 11 Actions Projects 0 Security Insights
+All your code in one place
+GitHub makes it easy to scale back on context switching. Read rendered documentation, see the history of any file, and collaborate with contributors on projects across GitHub.
+
+ See pricing for teams and enterprises
+TypeScript-Node-Starter/.gitignore
+@Jareechang Jareechang Add better logging when setting custom env var using .env
+44bf255 on Mar 16, 2019
+@bowdenk7@Jareechang@peterblazejewicz@msftgits@antamb
+41 lines (32 sloc)  343 Bytes
+  
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+# Build
+public/css/main.css
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
