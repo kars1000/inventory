@@ -1,11 +1,11 @@
 import {Controller, Param, Body, Get, Post, Put, Delete} from "routing-controllers";
  
 @Controller()
-export class InventoryResource {
+export class InventoryController {
  
     @Get("/inventory")
     getAll() {
-       return 'nino1222';
+       return 'nino';
     }
  
     @Get("/users/:id")

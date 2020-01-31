@@ -1,11 +1,11 @@
 import "reflect-metadata"; // this shim is required
 import {createExpressServer} from "routing-controllers";
-import {InventoryResource} from "./com.inventory/inventory.routes";
+import {InventoryController} from "./controllers/inventory.controller";
 
  
 // creates express app, registers all controller routes and returns you express app instance
 const app = createExpressServer({
-   controllers: [InventoryResource] // we specify controllers we want to use
+   controllers: [InventoryController] // we specify controllers we want to use
 });
  
 // run express application on port 3000
